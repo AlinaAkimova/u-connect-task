@@ -1,0 +1,12 @@
+@import "src/styles/_variable.scss";
+
+.toolbar {
+  display: flex;
+  flex-direction: row-reverse;
+  margin-bottom: 20px;
+  border-bottom: 1px solid $color-grey-extra-light;;
+
+  p {
+    margin-left: 10px;
+  }
+}

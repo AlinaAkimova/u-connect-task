@@ -1,0 +1,54 @@
+@import "src/styles/_variable.scss";
+
+.wrapper {
+  .container {
+    border-radius: 4px 4px 0 0;
+    border: 1px solid $color-grey-1;
+    background-color: $color-white;
+
+    .table {
+      overflow: hidden;
+    }
+
+    .tableCellHeadNumber {
+      width: 3%;
+      background-color: $color-grey-extra-light;
+      white-space: nowrap;
+    }
+
+    .tableCellHead {
+      background-color: $color-grey-extra-light;
+      font-family: "Montserrat", sans-serif !important;
+      white-space: nowrap;
+      font-weight: normal;
+    }
+
+    .tableBody {
+      height: auto;
+    }
+
+    .tableBodyLoading {
+      height: 600px;
+      position: relative;
+    }
+
+    .tableRow {
+      cursor: pointer;
+    }
+
+    .typography {
+      font-family: "Montserrat", sans-serif !important;
+      font-weight: normal;
+    }
+  }
+
+  .undefinedRowsContainer {
+    background-color: transparent;
+    border: none;
+  }
+
+  .undefinedRowsHeader {
+    border-radius: 4px;
+    border: 1px solid $color-grey-1;
+  }
+}

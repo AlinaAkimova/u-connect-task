@@ -1,0 +1,17 @@
+@import "src/styles/_variable.scss";
+
+.menuContainer {
+  width: 400px;
+  background-color: $color-grey-extra-light;
+  height:100%;
+  overflow: hidden;
+
+  .typography {
+    font-family: "Montserrat", sans-serif !important;
+  }
+
+  .listName {
+    background-color: $color-grey-extra-light;
+    font-family: "Montserrat", sans-serif !important;
+  }
+}

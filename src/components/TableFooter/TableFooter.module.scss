@@ -1,0 +1,13 @@
+@import "src/styles/_variable.scss";
+
+.footer {
+  width: 100%;
+  border-radius: 0 0 4px 4px;
+  background-color: $color-white;
+  border: 1px solid $color-grey-1;
+
+  .typographyFooter {
+    position: relative;
+    font-family: "Montserrat", sans-serif !important;
+  }
+}

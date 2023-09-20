@@ -1,0 +1,30 @@
+@import "src/styles/_variable.scss";
+
+.pageNameAndSearch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+
+  .searchBase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .openBase {
+      border: 1px solid $color-grey-1;
+      border-radius: 6px;
+      padding: 10px;
+
+      ::placeholder {
+        font-family: "Montserrat", sans-serif !important;
+        font-weight: normal;
+      }
+    }
+
+    input {
+      font-family: "Montserrat", sans-serif !important;
+      font-weight: normal;
+    }
+  }
+}
